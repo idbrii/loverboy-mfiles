@@ -4,5 +4,10 @@ return {
   repo = "SSYGEN/windfield",
   versions = {"master"},
   tags = {"physics", "box2d"},
-  files = {"init.lua", mlib = {"mib.lua"}}
+  files = {
+    windfield = {
+      "init.lua",
+      mlib = {"mlib.lua"}
+    }
+  }
 }
